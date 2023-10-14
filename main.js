@@ -1,4 +1,7 @@
 
+
+
+//scrollbar
 	const style = document.createElement("style");
 	document.head.appendChild(style);
 
@@ -21,9 +24,8 @@
 	});
 
 
-</script>
-<script>
-    // butter.js
+
+// butter.js
 
 	(function(root){
 		var Butter = function() {
@@ -149,7 +151,7 @@
 		cancelOnTouch: true
 	});
 
-	butter.init({
+
 		wrapperDamper: 0.06
 	});
 	var iframe = document.getElementById('quiz');
