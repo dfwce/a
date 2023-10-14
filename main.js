@@ -3,7 +3,7 @@
 	document.head.appendChild(style);
 
 	document.addEventListener("mousemove", function(event) {
-		if (event.clientX > window.innerWidth - 6 * window.innerWidth / 100) {
+		if (event.clientX > window.innerWidth - 9 * window.innerWidth / 100) {
 			document.body.style.overflow = "auto";
 			style.innerHTML = "";
 		} else {
@@ -12,7 +12,7 @@
 	});
 
 	document.addEventListener("touchmove", function(event) {
-		if (event.touches[0].clientX > window.innerWidth - 6 * window.innerWidth / 100) {
+		if (event.touches[0].clientX > window.innerWidth - 9 * window.innerWidth / 100) {
 			document.body.style.overflow = "auto";
 			style.innerHTML = "";
 		} else {
@@ -20,6 +20,9 @@
 		}
 	});
 
+
+</script>
+<script>
     // butter.js
 
 	(function(root){
