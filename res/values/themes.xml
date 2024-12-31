@@ -39,11 +39,11 @@
     <item name="android:forceDarkAllowed">false</item>
     <item name="navigationBarColor">?attr/colorKeyboard</item>
     <item name="windowLightNavigationBar">?attr/android:isLightTheme</item>
-    <item name="keyBorderRadius">5dp</item>
+    <item name="keyBorderRadius">0dp</item>
     <item name="keyBorderWidth">0dp</item>
     <item name="keyBorderWidthActivated">0dp</item>
-    <item name="secondaryDimming">0.25</item>
-    <item name="greyedDimming">0.5</item>
+    <item name="secondaryDimming">1</item>
+    <item name="greyedDimming">0</item>
     <item name="emoji_key_bg" type="color">?attr/emoji_button_bg</item>
     <item name="emoji_key_text" type="color">?attr/colorLabel</item>
     <item name="clipboard_divider_color" type="color">?attr/colorKey</item>
@@ -51,18 +51,18 @@
   </style>
   <style name="Dark" parent="BaseTheme">
     <item name="android:isLightTheme">false</item>
-    <item name="colorKeyboard">#1b1b1b</item>
-    <item name="colorKey">#333333</item>
-    <item name="colorKeyActivated">#1b1b1b</item>
-    <item name="keyBorderWidth">1.2dp</item>
+    <item name="colorKeyboard">#000</item>
+    <item name="colorKey">#000</item>
+    <item name="colorKeyActivated">#f00</item>
+    <item name="keyBorderWidth">0dp</item>
     <item name="keyBorderWidthActivated">0dp</item>
-    <item name="keyBorderColorBottom">#404040</item>
-    <item name="colorLabel">#ffffff</item>
-    <item name="colorLabelActivated">#3399ff</item>
-    <item name="colorLabelLocked">#33cc33</item>
-    <item name="colorSubLabel">#cccccc</item>
-    <item name="emoji_button_bg" type="color">#202020</item>
-    <item name="emoji_color" type="color">#ffffff</item>
+    <item name="keyBorderColorBottom">#000000</item>
+    <item name="colorLabel">#f00</item>
+    <item name="colorLabelActivated">#000</item>
+    <item name="colorLabelLocked">#000</item>
+    <item name="colorSubLabel">#000</item>
+    <item name="emoji_button_bg" type="color">#000</item>
+    <item name="emoji_color" type="color">#000</item>
   </style>
   <style name="Light" parent="BaseTheme">
     <item name="android:isLightTheme">true</item>
@@ -193,15 +193,15 @@
   </style>
   <style name="MonetDark" parent="@style/BaseTheme">
     <item name="android:isLightTheme">false</item>
-    <item name="colorKeyboard">@android:color/system_neutral1_900</item>
-    <item name="colorKey">@android:color/system_accent2_800</item>
-    <item name="colorKeyActivated">@android:color/system_accent1_800</item>
+    <item name="colorKeyboard">@android:color/system_accent1_900</item>
+    <item name="colorKey">@android:color/system_accent1_800</item>
+    <item name="colorKeyActivated">@android:color/system_accent1_600</item>
     <item name="colorLabel">@android:color/system_neutral1_0</item>
-    <item name="colorLabelActivated">@android:color/system_accent1_400</item>
-    <item name="colorLabelLocked">@android:color/system_accent1_100</item>
+    <item name="colorLabelActivated">@android:color/system_accent2_300</item>
+    <item name="colorLabelLocked">@android:color/system_accent2_100</item>
     <item name="colorSubLabel">@android:color/system_neutral1_300</item>
     <item name="emoji_button_bg">?colorKeyActivated</item>
-    <item name="emoji_color">@android:color/system_neutral1_900</item>
+    <item name="emoji_color">@android:color/system_accent1_900</item>
   </style>
   <style name="RosePine" parent="BaseTheme">
     <item name="android:isLightTheme">false</item>
